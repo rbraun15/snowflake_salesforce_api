@@ -31,6 +31,11 @@ CREATE OR REPLACE SECRET SALESFORCE.PUBLIC.TOKEN
   TYPE = GENERIC_STRING
   -- reset security token, won't see reset option if have login IP ranges on your profile
   --   had to remove IP login range
+  -- How to Generate a Security Token for Salesforce
+     -- Log in to your Salesforce account. ...
+     -- Click the profile avatar and choose Settings.
+     -- Select My Personal Information → Reset My Security Token.
+     -- Check your email for the security token.
     SECRET_STRING = '<your secret string>';
 
  
